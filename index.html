@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Put your knowledge to the test with Trivia."
+    >
+    <title>Trivia — Play, learn, repeat</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Trivia home">trivia<span>.</span></a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span class="menu-toggle-label">Menu</span>
+      </button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="#how-to-play">How to play</a>
+        <a class="nav-cta" href="#start">Get started <span aria-hidden="true">→</span></a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="start" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span aria-hidden="true">✦</span> A little knowledge goes a long way</p>
+          <h1 id="hero-title">Ready to test<br>what you <span>know?</span></h1>
+          <p class="hero-description">
+            Gather your people, pick a topic, and see who knows a little bit
+            about everything.
+          </p>
+          <a class="button button-primary" href="#how-to-play">
+            Explore the game <span aria-hidden="true">→</span>
+          </a>
+          <p class="hero-note">Good questions. Great company. Zero pressure.</p>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="question-card">
+            <span class="question-mark">?</span>
+            <span class="card-caption">YOUR NEXT<br>FAVORITE QUESTION</span>
+          </div>
+          <span class="art-spark spark-one">✳</span>
+          <span class="art-spark spark-two">✦</span>
+          <span class="art-dot"></span>
+        </div>
+      </section>
+
+      <section class="how-to-play section-wrap" id="how-to-play" aria-labelledby="how-title">
+        <div class="section-heading">
+          <p class="eyebrow">The simple stuff</p>
+          <h2 id="how-title">Three steps to <span>game on.</span></h2>
+        </div>
+        <div class="steps">
+          <article class="step-card">
+            <span class="step-number">01</span>
+            <h3>Pick your people</h3>
+            <p>Bring your friends, family, or your fiercest friendly rivals.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">02</span>
+            <h3>Choose a category</h3>
+            <p>Find a topic everyone loves—or one that keeps things interesting.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">03</span>
+            <h3>Make a little magic</h3>
+            <p>Answer, laugh, learn something new, and play another round.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#" aria-label="Trivia home">trivia<span>.</span></a>
+      <p>Made for curious minds and good company.</p>
+    </footer>
+  </body>
+</html>
